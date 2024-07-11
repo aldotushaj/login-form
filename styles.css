@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0e0e6; 
+    height: 100vh;
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00cccc; 
+    width: 200px;
+    padding: 20px 120px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.login-form input {
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  
+
+}
+
+.login-form button {
+   cursor: pointer;
+}
